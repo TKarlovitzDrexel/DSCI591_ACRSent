@@ -31,7 +31,7 @@ with open(file_name) as file_in:
     #print(len(sorted_output))
     #print(sorted_output[0:5])
     
-    threshold = 30
+    threshold = 0
     for item in sorted_output:
         if item[1] < threshold: break 
         outline = item[0] + '\t' + str(item[1]) + '\n'
