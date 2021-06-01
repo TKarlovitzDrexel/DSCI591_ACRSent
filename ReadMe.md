@@ -28,3 +28,9 @@ Book Data
 	original Amazon tsv: clean_books_1stpass.py, clean_books_2ndpass.py,
 	and clean_books_3rdpass.py. In short, these files remove any bad rows, 
 	and keep only books with 30 or more reviews. 
+	
+	
+Mobile Electronics
+- Mobile electronic review data is from the Amazon customer review dataset from Amazon's website.
+- The data consists of product reviews for various mobile electronics and accessories from 2001-2015. There are approximately 100,000 reviews within the mobile electronics dataset
+- The code included here includes cleaning and pre-processing, statistical data analysis, exploratory data analysis, and visualizations that aid in the creation of a polished dataset that will be used to perform predictive modeling in future work. The main goal is to use the review dataset to make a prediction of which star rating (1-5) the reviewer will give. 
