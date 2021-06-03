@@ -24,11 +24,20 @@ Book Data
 	ranked books on Amazon for that year based off the top 30 reviews. 
 
 - The code
-	For part 1, we wrote three Python standalone scripts to clean the
-	original Amazon tsv: clean_books_1stpass.py, clean_books_2ndpass.py,
-	and clean_books_3rdpass.py. In short, these files remove any bad rows, 
-	and keep only books with 30 or more reviews. 
-	
+        For part 1, we wrote three Python standalone scripts to clean the
+        original Amazon tsv: clean_books_1stpass.py, clean_books_2ndpass.py,
+        and clean_books_3rdpass.py. In short, these files remove any bad rows,
+        and keep only books with 30 or more reviews. EDA and SDA were performed
+        in part1_book_SDA.ipynb.
+
+        For part 2, the main work was combining the Amazon Top 100 Ranked
+        books by year with our cleaned dataset that was produced in part
+        1. First, we needed to create a dataset that contained the first
+        30 reviews ever written for each book in our Amazon product
+        reviews dataset. make_top30.py was written for this. It produced
+        the file first30_reviews.tsv. We then were able to merge this file
+        with the Amazon Top 100 Ranked books by year on book title in
+        part2_rank_books_SDA.ipynb. EDA/SDA were performed in there as well.
 	
 Mobile Electronics
 - Mobile electronic review data is from the Amazon customer review dataset from Amazon's website.
