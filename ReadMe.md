@@ -38,6 +38,9 @@ Book Data
         the file first30_reviews.tsv. We then were able to merge this file
         with the Amazon Top 100 Ranked books by year on book title in
         part2_rank_books_SDA.ipynb. EDA/SDA were performed in there as well.
+
+Note that all of the tsv's combined for the book data are over 1GB so I was
+unable to upload it to github. I can email it separately if needed.
 	
 Mobile Electronics
 - Mobile electronic review data is from the Amazon customer review dataset from Amazon's website.
